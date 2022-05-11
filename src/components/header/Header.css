@@ -38,6 +38,13 @@ header {
     background: var(--color-primary);
 }
 
+.social_icons {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
 /* ---------- ME ----------*/
 
 .me {
@@ -79,7 +86,8 @@ header {
         height: 100vh;
     }
 
-    .header_socials, .scroll_down {
+    .header_socials,
+    .scroll_down {
         display: none;
     }
 }

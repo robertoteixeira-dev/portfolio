@@ -31,8 +31,8 @@ const About = () => {
             <article className="about_card_edu">
               <FaGraduationCap className="about_icon" />
               <h5>Education</h5>
-              <small><BsPatchCheckFill /> Computer Science Studant</small>
-              <small><BsPatchCheckFill /> Graduated IT Technician</small>
+              <small><BsPatchCheckFill /> Computer Science</small><br/>
+              <small><BsPatchCheckFill /> IT Technician</small>
             </article>
 
             <article className="about_card">
@@ -43,7 +43,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, perspiciatis nisi fugiat doloremque ea illum quaerat soluta quis repellendus omnis perferendis deserunt ex vitae ducimus quidem iste. Repellendus, molestiae laudantium.
+          I'm a self-directed, action-oriented Full-Stack Developer passionate about technology and software development. Graduated as IT technician and currently a Computer Science Studant with ability to collect and manage information efficiently and accurately. 
+           Good object-oriented programming knowledge. Great written and verbal communications skills in all the three languages that I speak (English, Spanish and Portuguese) and a strong desire to work hard and perform well. 
+          Engaged in the search for suitable solutions and specs that best meet the needs of the project.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
