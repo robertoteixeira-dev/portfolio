@@ -35,10 +35,30 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: rgb(2, 2, 26);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    animation: move 1s linear infinite forwards;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 255, 255);
+    filter: blur(140px);
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 200px;
+    left: 250px;
+    height: 200px;
+    width: 200px;
+    background: rgb(183, 0, 255);
+    filter: blur(140px);
 }
 
 /* ---------- GENERAL STYLES ---------- */
@@ -48,7 +68,11 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
 
@@ -60,12 +84,13 @@ section {
     margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-light);
 }
 
-section > h2 {
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -130,10 +155,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2 {
+    section>h2 {
         margin-bottom: 2rem;
     }
 }
-
-
-
