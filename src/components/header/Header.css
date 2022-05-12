@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: auto;
     padding-top: 1.5rem;
     overflow: hidden;
 }
@@ -25,13 +25,10 @@ header::after {
 }
 
 .header_container {
+    width: 100%;
     text-align: center;
     height: 100%;
     position: relative;
-}
-
-.presentation {
-    display: block;
 }
 
 .header_container h5 {
@@ -42,13 +39,16 @@ header::after {
     color: var(--color-primary);
 }
 
-/* ---------- CTA ----------*/
+.presentation {
+    align-items: center;
+    height: 30vh;
+}
 
-.cta {
-    display: flex;
-    justify-content: end;
-    margin-top: 2rem;
-    gap: 1.2rem;
+.header_content {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 /* ---------- HEADER SOCIALS ----------*/
@@ -82,14 +82,14 @@ header::after {
 .me {
     background: linear-gradient(var(--color-bg-variant), transparent);
     width: 22rem;
-    height: 28rem;
+    height: 30rem;
     position: absolute;
     left: 50%;
-    bottom: 5%;
     transform: translateX(-50%);
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem;
+    padding: 3rem 1.5rem 1.5rem;
+    margin-top: 1rem;
 }
 
 .icon_dev {
@@ -115,10 +115,11 @@ header::after {
 }
 
 @keyframes spin {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -128,8 +129,8 @@ header::after {
     color: green;
     width: 75px;
     height: 75px;
-    left: 60%;
-    bottom: 15%;
+    left: 59%;
+    bottom: 18%;
     z-index: 4;
 }
 
@@ -154,42 +155,114 @@ header::after {
     font-size: 0.9rem;
 }
 
+/* ---------- CTA ----------*/
+
+.cta {
+    display: flex;
+    justify-content: end;
+    gap: 1.2rem;
+}
+
 /* ---------- MEDIA QUERIES (MEDIUM DEVICES) ---------- */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
+    .cta {
+        display: flex;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .icon_react {
+        position: absolute;
+        left: 25%;
+        bottom: 42%;
+    }
+
+    .icon_node {
+        position: absolute;
+        left: 64%;
+        bottom: 35%;
+    }
+
+    .icon_javascript {
+        position: absolute;
+        left: 63%;
+        bottom: 50%;
     }
 }
 
 /* ---------- MEDIA QUERIES (SMALL DEVICES) ---------- */
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
-
-    .header_socials,
-    .scroll_down {
-        display: none;
+    .cta {
+        display: flex;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-top: 1rem;
+        z-index: 2;
     }
 
     .icon_react {
         position: absolute;
         left: 1%;
-        bottom: 25%;
+        bottom: 35%;
     }
 
     .icon_node {
         position: absolute;
-        left: 80%;
-        bottom: 16%;
+        left: 78%;
+        bottom: 20%;
     }
-    
+
     .icon_javascript {
         position: absolute;
         left: 70%;
-        bottom: 40%;
+        bottom: 50%;
+    }
+
+    header::before {
+        content: "";
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        background: rgb(0, 255, 255);
+        filter: blur(140px);
     }
     
+    header::after {
+        content: "";
+        position: absolute;
+        top: 250px;
+        left: 230px;
+        height: 150px;
+        width: 150px;
+        background: rgb(183, 0, 255);
+        filter: blur(140px);
+    }
+
+    .socials {
+        z-index: 2;
+    }
+
+    .scroll {
+        z-index: 2;
+    }
+
 }
+
+@media screen and (max-width: 376px) {
+    .me {
+        padding: 2rem 1.5rem 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .me {
+        padding: 2rem 1.5rem 1.5rem;
+        margin-top: 5rem;
+    }
+}
+
+

@@ -12,48 +12,60 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
+
         <div className="presentation">
-        <h5>Hello, I'm</h5>
-        <h1>Roberto Teixeira</h1>
-        <h5 className="text-light">
-          {" "}
-          <Typical 
-            loop={Infinity}
-            steps={[
-              "Front-End Developer",
-              1000,
-              "React Developer",
-              1000,
-              "Becoming a Full-Stack Dev",
-              1000,
-              "MERN and PERN Stack Dev",
-              1000,
-              "Front-End Developer",
-              1000,  
-            ]}
-          />
-        </h5>
-        </div>
-        <CTA />
-        <HeaderSocials />
-
-        <div className="me">
-          <img src={ME} alt="me" />
-        </div>
-        
-        <div className="my_image">
-          <FaReact className="icon_dev icon_react" />
+          <h5>Hello, I'm</h5>
+          <h1>Roberto Teixeira</h1>
+          <h5 className="text-light">
+            {" "}
+            <Typical
+              loop={Infinity}
+              steps={[
+                "Front-End Developer",
+                1000,
+                "React Developer",
+                1000,
+                "Becoming a Full-Stack Dev",
+                1000,
+                "MERN and PERN Stack Dev",
+                1000,
+                "Front-End Developer",
+                1000,
+              ]}
+            />
+          </h5>
+          <CTA />
         </div>
 
-        <div className="my_image">
-          <FaNodeJs className="icon_dev icon_node" />
+        <div className="header_content">
+          <div className="socials">
+            <HeaderSocials />
+          </div>
+
+          <div className="me-photo">
+            <div className="me">
+              <img src={ME} alt="me" />
+            </div>
+
+            <div className="my_image">
+              <FaReact className="icon_dev icon_react" />
+            </div>
+
+            <div className="my_image">
+              <FaNodeJs className="icon_dev icon_node" />
+            </div>
+
+            <div className="my_image">
+              <DiJavascript1 className="icon_dev icon_javascript" />
+            </div>
+          </div>
+
+          <div className="scroll">
+            <a href="#contact" className="scroll_down">Scroll Down</a>
+          </div>
+
         </div>
 
-        <div className="my_image">
-          <DiJavascript1 className="icon_dev icon_javascript" />
-        </div>
-
-        <a href="#contact" className="scroll_down">Scroll Down</a>
       </div>
     </header>
   )
