@@ -173,4 +173,23 @@ header::after {
     .scroll_down {
         display: none;
     }
+
+    .icon_react {
+        position: absolute;
+        left: 1%;
+        bottom: 25%;
+    }
+
+    .icon_node {
+        position: absolute;
+        left: 80%;
+        bottom: 16%;
+    }
+    
+    .icon_javascript {
+        position: absolute;
+        left: 70%;
+        bottom: 40%;
+    }
+    
 }

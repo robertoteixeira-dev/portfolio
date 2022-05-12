@@ -26,13 +26,13 @@ const About = () => {
               steps={[
                 "Self-Learner",
                 1000,
-                "Hard Worker",
-                1000,
                 "Team Player",
                 1000,
                 "Organized",
                 1000,
-                "Professional Coder",
+                "Hard Worker",
+                1000,
+                "Technology Lover",
                 1000,
               ]}
             />

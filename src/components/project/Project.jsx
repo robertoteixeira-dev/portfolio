@@ -3,9 +3,6 @@ import './Project.css'
 import IMG1 from '../../assets/login.gif'
 import IMG2 from '../../assets/BrFood.gif'
 import IMG3 from '../../assets/Web.gif'
-import { SiMongodb, SiCss3, SiPostgresql } from 'react-icons/si'
-import { DiJavascript1 } from 'react-icons/di'
-import { FaReact, FaNodeJs, FaHtml5 } from 'react-icons/fa'
 
 const data = [
   {
@@ -33,6 +30,8 @@ const data = [
     demo: 'https://cometoarg.netlify.app/'
   },
 ]
+
+// https://heartfelt-elf-64e583.netlify.app/
 
 const Project = () => {
   return (

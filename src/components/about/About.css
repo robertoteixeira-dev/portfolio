@@ -81,6 +81,7 @@
     transform: translate(-200px);
     opacity: 0;
     animation: fade-in 1s ease 1 0.5s forwards;
+    align-items: center;
 }
 
 @keyframes fade-in {
@@ -131,7 +132,7 @@
     }
 
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
@@ -142,36 +143,22 @@
     .about_content p {
         margin: 1.5rem 0;
     }
+
+    .about_tech .personality {
+        font-size: 1.3rem;
+    }
+
+    .about_container img {
+        position: relative;
+        right: 20%;
+    }
+
+    .about_content .btn-primary {
+        position: absolute;
+        left: 60%;
+        margin-right: 1rem;
+    }
+
+
+   
 }
-
-/*
-.about_me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg,
-            transparent,
-            var(--color-primary),
-            transparent);
-    display: grid;
-    place-items: center;
-}
-
-.about_me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-}
-
-.about_me-image:hover {
-    transform: rotate(0);
-}
-
-
-  <div className="about_me-image">
-            <img src={ME} alt="About Image" />
-          </div>
-
-
-*/
