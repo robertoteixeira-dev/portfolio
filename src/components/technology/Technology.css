@@ -40,6 +40,10 @@
     color: var(--color-primary);
 }
 
+.technology_icons {
+    font-size: 3rem;
+}
+
 /* ---------- MEDIA QUERIES (MEDIUM DEVICES) ---------- */
 
 @media screen and (max-width: 1024px) {

@@ -22,14 +22,25 @@
     overflow: hidden;
 }
 
+.project_item-image img {
+    min-height: 145px;
+}
+
 .project_item h3 {
-    margin: 1.2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0.5rem;
+    color: var(--color-primary);
+}
+
+.project_item h4 {
+    margin: 1rem 0 0.5rem;
 }
 
 .project_item-cta {
     display: flex;
+    justify-content: center;
     gap: 1rem;
-    margin-bottom: 1rem;
 }
 
 /* ---------- MEDIA QUERIES (MEDIUM DEVICES) ---------- */

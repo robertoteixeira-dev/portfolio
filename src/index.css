@@ -41,26 +41,6 @@ body {
     animation: move 1s linear infinite forwards;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    height: 200px;
-    width: 200px;
-    background: rgb(0, 255, 255);
-    filter: blur(140px);
-}
-
-body::after {
-    content: "";
-    position: fixed;
-    top: 200px;
-    left: 250px;
-    height: 200px;
-    width: 200px;
-    background: rgb(183, 0, 255);
-    filter: blur(140px);
-}
-
 /* ---------- GENERAL STYLES ---------- */
 
 .container {

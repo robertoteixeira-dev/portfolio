@@ -3,29 +3,34 @@ import './Project.css'
 import IMG1 from '../../assets/login.gif'
 import IMG2 from '../../assets/BrFood.gif'
 import IMG3 from '../../assets/Web.gif'
-
+import { SiMongodb, SiCss3, SiPostgresql } from 'react-icons/si'
+import { DiJavascript1 } from 'react-icons/di'
+import { FaReact, FaNodeJs, FaHtml5 } from 'react-icons/fa'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'My project',
-    githug: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Memegram',
+    description: 'This is a Full Stack Instagram clone project for sharing memes with RESTful API developed with React.JS, Node.JS, Express and PostgreSQL',
+    repository: 'https://github.com/robertoteixeira-dev/memegram',
+    demo: 'https://github.com/robertoteixeira-dev/memegram-api'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'My project',
-    githug: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'BrFood',
+    description: 'This is a Front-End restaurant website project specialist in Brazilian food developed with HTML, CSS and JavaScript',
+    repository: 'https://github.com/robertoteixeira-dev/BrFood_Website',
+    demo: 'https://hardcore-goldstine-dc5850.netlify.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'My project',
-    githug: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Come to ARG',
+    description: 'This is a Front-End Blog Project about tourism in Argentina developed with HTML and CSS',
+    repository: 'https://github.com/robertoteixeira-dev/Come-to-ARG_Blog',
+    demo: 'https://cometoarg.netlify.app/'
   },
 ]
 
@@ -37,14 +42,15 @@ const Project = () => {
       <div className="container project_container">
 
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, description, repository, demo }) => {
             return (
               <article key={id} className="project_item">
                 <div className="project_item-image">
                   <img src={image} alt={title} />
                   <h3>{title}</h3>
+                  <h4>{description}</h4>
                   <div className="project_item-cta">
-                    <a href={github} className="btn" target="_blank">GitHub</a>
+                    <a href={repository} className="btn" target="_blank">GitHub</a>
                     <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
                   </div>
                 </div>

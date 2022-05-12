@@ -4,6 +4,26 @@ header {
     overflow: hidden;
 }
 
+header::before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: rgb(0, 255, 255);
+    filter: blur(140px);
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 180px;
+    left: 230px;
+    height: 200px;
+    width: 200px;
+    background: rgb(183, 0, 255);
+    filter: blur(140px);
+}
+
 .header_container {
     text-align: center;
     height: 100%;
@@ -12,7 +32,6 @@ header {
 
 .presentation {
     display: block;
-  
 }
 
 .header_container h5 {
@@ -22,8 +41,6 @@ header {
 .header_container h1 {
     color: var(--color-primary);
 }
-
-
 
 /* ---------- CTA ----------*/
 
@@ -157,16 +174,3 @@ header {
         display: none;
     }
 }
-
-/*
- background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem;
-*/

@@ -1,7 +1,9 @@
 import React from 'react'
 import './Technology.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
-import { FaHtml5 } from 'react-icons/fa'
+import { SiMongodb, SiCss3, SiPostgresql, SiExpress } from 'react-icons/si'
+import { DiJavascript1 } from 'react-icons/di'
+import { FaReact, FaNodeJs, FaHtml5 } from 'react-icons/fa'
 
 const Technology = () => {
   return (
@@ -18,7 +20,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>HTML</h4>
-                <FaHtml5 />
+                <FaHtml5 className="technology_icons"/>
               </div>
             </article>
 
@@ -26,7 +28,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>CSS</h4>
-                <FaHtml5 />
+                <SiCss3 className="technology_icons"/>
               </div>
             </article>
 
@@ -34,7 +36,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>JavaScript</h4>
-                <FaHtml5 />
+                <DiJavascript1 className="technology_icons"/>
               </div>
             </article>
 
@@ -42,7 +44,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>React.JS</h4>
-                <FaHtml5 />
+                <FaReact className="technology_icons"/>
               </div>
             </article>
           </div>
@@ -55,7 +57,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>Node.JS</h4>
-                <FaHtml5 />
+                <FaNodeJs className="technology_icons"/>
               </div>
             </article>
 
@@ -63,7 +65,7 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>PostgreSQL</h4>
-                <FaHtml5 />
+                <SiPostgresql className="technology_icons"/>
               </div>
             </article>
 
@@ -71,7 +73,15 @@ const Technology = () => {
               <BsPatchCheckFill className="technology_details-icon"/>
               <div>
                 <h4>MongoDB</h4>
-                <FaHtml5 />
+                <SiMongodb className="technology_icons"/>
+              </div>
+            </article>
+
+            <article className="technology_details">
+              <BsPatchCheckFill className="technology_details-icon"/>
+              <div>
+                <h4>Express JS</h4>
+                <SiExpress className="technology_icons"/>
               </div>
             </article>
           </div>
