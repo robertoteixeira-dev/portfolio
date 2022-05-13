@@ -2,7 +2,8 @@ import React from 'react'
 import './Project.css'
 import IMG1 from '../../assets/login.gif'
 import IMG2 from '../../assets/BrFood.gif'
-import IMG3 from '../../assets/Web.gif'
+import IMG3 from '../../assets/portfolio.gif'
+import IMG4 from '../../assets/Web.gif'
 
 const data = [
   {
@@ -24,14 +25,20 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Come to ARG',
-    description: 'This is a Front-End Blog Project about tourism in Argentina developed with HTML and CSS',
-    repository: 'https://github.com/robertoteixeira-dev/Come-to-ARG_Blog',
-    demo: 'https://cometoarg.netlify.app/'
+    title: 'Portfolio',
+    description: 'This Project is my professional portfolio website developed with React.JS and using Email.JS to manage the messages that I receive from the portfolio website',
+    repository: 'https://github.com/robertoteixeira-dev/portfolio',
+    demo: 'https://papaya-bunny-23e240.netlify.app/'
   },
+  {
+  id: 4,
+  image: IMG4,
+  title: 'Come to ARG',
+  description: 'This is a Front-End Blog Project about tourism in Argentina developed with HTML and CSS',
+  repository: 'https://github.com/robertoteixeira-dev/Come-to-ARG_Blog',
+  demo: 'https://cometoarg.netlify.app/'
+},
 ]
-
-// https://heartfelt-elf-64e583.netlify.app/
 
 const Project = () => {
   return (
@@ -64,5 +71,3 @@ const Project = () => {
 }
 
 export default Project
-
-//Dribbble.com - free images for template
