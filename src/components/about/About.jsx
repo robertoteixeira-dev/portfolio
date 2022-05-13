@@ -63,9 +63,9 @@ const About = () => {
           </div>
 
           <p>
-            I'm a self-directed, action-oriented Full-Stack Developer passionate about technology and software development. Graduated as IT technician and currently a Computer Science Studant with ability to collect and manage information efficiently and accurately.
-            Good object-oriented programming knowledge. Great written and verbal communications skills in all the three languages that I speak (English, Spanish and Portuguese) and a strong desire to work hard and perform well.
-            Engaged in the search for suitable solutions and specs that best meet the needs of the project.
+          I'm a self-directed, action-oriented Full-Stack Developer passionate about technology and software development. 
+          Graduated as IT technician and currently a Computer Science Student with ability to collect and manage information efficiently and accurately. Good object-oriented programming knowledge. Great written and verbal communication skills in all the three languages that I speak (English, Spanish and Portuguese) and a strong desire to work hard and perform well. 
+          Engaged in the search for suitable solutions and specs that best meet the needs of the project.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
