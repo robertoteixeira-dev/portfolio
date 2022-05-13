@@ -7,7 +7,7 @@
 <p align="center">This Project is my professional portfolio website developed with React.JS and using Email.JS to manage the messages that I receive from the portfolio website</p>
 
 <div align="center" >
-  <img src="../../assets/portfolio.gif" alt="portfolio" height="425">
+  <img src='../../assets/portfolio.gif' alt="portfolio" height="425">
 </div>
 
 <br>
@@ -15,7 +15,7 @@
 ## 📲 Responsive Web Design
 
 <div align="center" >
-  <img src="../../assets/portfolio_Responsive.gif" alt="responsive" height="425">
+  <img src='../../assets/portfolio_responsive.gif' alt="responsive" height="425">
 </div>
 
 ## ✔️ Come to try out the website
