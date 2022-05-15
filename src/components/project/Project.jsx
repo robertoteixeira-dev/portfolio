@@ -2,6 +2,7 @@ import React from 'react'
 import './Project.css'
 import IMG1 from '../../assets/login.gif'
 import IMG2 from '../../assets/BrFood.gif'
+import IMG3 from '../../assets/Portfolio.gif'
 import IMG4 from '../../assets/Web.gif'
 
 const data = [
@@ -20,6 +21,14 @@ const data = [
     description: 'This is a Front-End restaurant website project specialist in Brazilian food developed with HTML, CSS and JavaScript',
     repository: 'https://github.com/robertoteixeira-dev/BrFood_Website',
     demo: 'https://hardcore-goldstine-dc5850.netlify.app/'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Portfolio',
+    description: 'This Project is my professional portfolio website developed with React.JS and using Email.JS to manage the messages that I receive from the portfolio website',
+    repository: 'https://github.com/robertoteixeira-dev/portfolio',
+    demo: 'https://cozy-mousse-0924e9.netlify.app/'
   },
   {
   id: 4,
