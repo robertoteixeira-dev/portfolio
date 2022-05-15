@@ -21,7 +21,7 @@
 ## ✔️ Come to try out the website
 
 <p align="center">
-  <a href="https://cozy-mousse-0924e9.netlify.app/" target="_blank">
+  <a href="https://singular-sopapillas-7de58d.netlify.app/" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
   </a>
 </p>

@@ -28,7 +28,7 @@ const data = [
     title: 'Portfolio',
     description: 'This Project is my professional portfolio website developed with React.JS and using Email.JS to manage the messages that I receive from the portfolio website',
     repository: 'https://github.com/robertoteixeira-dev/portfolio',
-    demo: 'https://cozy-mousse-0924e9.netlify.app/'
+    demo: 'https://singular-sopapillas-7de58d.netlify.app/'
   },
   {
   id: 4,
