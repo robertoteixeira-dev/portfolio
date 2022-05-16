@@ -3,7 +3,8 @@ import './Project.css'
 import IMG1 from '../../assets/login.gif'
 import IMG2 from '../../assets/BrFood.gif'
 import IMG3 from '../../assets/Portfolio.gif'
-import IMG4 from '../../assets/Web.gif'
+import IMG4 from '../../assets/Weather.gif'
+import IMG5 from '../../assets/Web.gif'
 
 const data = [
   {
@@ -31,8 +32,16 @@ const data = [
     demo: 'https://singular-sopapillas-7de58d.netlify.app/'
   },
   {
-  id: 4,
-  image: IMG4,
+    id: 4,
+    image: IMG4,
+    title: 'TodayWeather',
+    description: 'This project is a Weather App developed with React JS. I used the OpenWeather API to get the necessary data',
+    repository: 'https://github.com/robertoteixeira-dev/today-weather',
+    demo: 'https://snazzy-brigadeiros-0af1a4.netlify.app/'
+  },
+  {
+  id: 5,
+  image: IMG5,
   title: 'Come to ARG',
   description: 'This is a Front-End Blog Project about tourism in Argentina developed with HTML and CSS',
   repository: 'https://github.com/robertoteixeira-dev/Come-to-ARG_Blog',
